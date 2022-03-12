@@ -1,0 +1,35 @@
+@import 'variables';
+
+.sidebar{
+    width: 430px;
+    height: 100vh;
+    border-right: .1px solid rgba(255, 255, 255, 0.12);
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $second_color;
+        padding: 8px;
+
+        .buttons{
+            display: flex;
+            gap: 16px;
+
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                border-radius: 50%;
+                color: #aebac1;
+
+                &:hover{
+                    background-color: #8996a036;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+}

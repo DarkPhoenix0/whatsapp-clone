@@ -1,0 +1,16 @@
+@import "variables"; 
+@import "sidebar";
+@import "search";
+@import "app";
+@import "chat";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primary_color;
+    font-family: $font_family;
+    color: #fff;
+}
